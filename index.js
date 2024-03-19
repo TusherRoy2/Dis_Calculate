@@ -11,9 +11,9 @@ let inputD = document.querySelector('#d').value;
 function disPrice(price){
   let dis = price / 100 * inputD;
   let disPri = price - dis;
-  let o = Math.floor(disPri).toString();
+  let netPrice = Math.floor(disPri).toString();
 
-  p.innerHTML = `<b>${o} Tk</b> is the <em>${inputD}%</em> discount price 💸`
+  p.innerHTML = `<b>${netPrice} Tk</b> is the <em>${inputD}%</em> discount price 💸`
 }
 
 btn.addEventListener("click", function (){
