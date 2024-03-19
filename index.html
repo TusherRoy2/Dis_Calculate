@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+    <!--! Style -->
+    <style>
+        .boxx {
+            padding: 2rem;
+            width: 70%;
+            background: #10c0b7;
+            text-align: center;
+            margin: 5rem auto;
+            padding: 5rem 0 ;
+        }
+        .btn{
+            padding: .4rem 2rem;
+            color: red;
+            font-size: 1rem;
+            text-transform: capitalize;
+            border-radius: 1rem;
+            border: none;
+            background: #000;
+            transition: .3s;
+        }
+        .btn:hover{
+            color: #000;
+            background: red;
+        }
+        input{
+            padding: .4rem .5rem;
+            border: 1px dashed red;
+            border-radius: 1rem;
+        }
+        #d{
+            width: 5rem !important;
+            padding: .4rem .5rem;
+            border: 1px dashed red;
+            border-radius: 1rem;
+        }
+        input:hover{
+            border: 1px dashed black;
+            transition: .3s;
+        }
+    </style>
+    <!--! Style -->
+</head>
+<body>
+
+    <div class="boxx">
+        <button class="btn">print</button>
+        <input id="p" type="number" placeholder="price">
+        <input id="d" type="number" placeholder="discound">
+        <p></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

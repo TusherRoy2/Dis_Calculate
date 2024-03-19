@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 2rem 0;
+    background: lightseagreen;
+    position: relative;
+}
+.sm_box{
+    width: 40px;
+    height: 40px;
+    background: rgb(178, 32, 64);
+    position: absolute;
+}
