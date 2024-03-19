@@ -11,7 +11,7 @@ let inputD = document.querySelector('#d').value;
 function disPrice(price){
   let dis = price / 100 * inputD;
   let disPri = price - dis;
-  let netPrice = Math.floor(disPri).toString();
+  let netPrice = Math.floor(disPri);
 
   p.innerHTML = '<b>' + netPrice + 'Tk</b>' + 'is the <em>' + inputD + '%</em> discount price 💸'
 }
