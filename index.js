@@ -12,8 +12,9 @@ function disPrice(price){
   let dis = price / 100 * inputD;
   let disPri = price - dis;
   let netPrice = Math.floor(disPri);
+  let print = `<b>${netPrice} Tk</b> is the <em>${inputD}%</em> discount price 💸`
 
-  p.innerHTML = `<b>${netPrice} Tk</b> is the <em>${inputD}%</em> discount price 💸`
+  p.innerHTML = print;
 }
 
 btn.addEventListener('click', function (){
